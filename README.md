@@ -3,14 +3,15 @@ This project showcases a clean and responsive layout for product cards, includin
 Attached is the demo video to understand the functionality of application.
 https://drive.google.com/file/d/16u9L_ufYVdjSbuiUV0anAGwK7a8Ld6uf/view?usp=drive_link  
 
-'''
+```
 GDGC-web-dev
 │
 ├── main.html
 ├── style.css
 ├── index.js         
-└── README.md    
-'''
+└── README.md  
+```
+
 
 Setup Instructions:
 1. Clone the repository or download the zip file: git clone https://github.com/your-username/e-commerce-product-cards.git
