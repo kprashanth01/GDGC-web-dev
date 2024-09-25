@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">E-Commerce</div>
+        <input type="text" id="search-bar" placeholder="Search for products...." oninput="searchProducts()">
+        <div class="cart-icon" onclick="viewCart()">🛒 Cart (<span id="cart-count">0</span>)</div>
+    </div>
+    <div class="category-menu">
+        <button onclick="filterProducts('all')">All</button>
+        <button onclick="filterProducts('men\'s clothing')">Men's Clothing</button>
+        <button onclick="filterProducts('women\'s clothing')">Women's Clothing</button>
+        <button onclick="filterProducts('jewelery')">Jewelery</button>
+        <button onclick="filterProducts('electronics')">Electronics</button>
+    </div>
+    <div id="product-list" class="product-list"></div>
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-content">
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <div class="checkout-section">
+                <p>Total Price: $<span id="total-price">0</span></p>
+                <p>Discount: $<span id="discount">0</span></p>
+                <p>Platform Fee: $<span id="platform-fee">10</span></p>
+                <p>Shipping Charges: $<span id="shipping-charges">5</span></p>
+                <h3>Final Amount: $<span id="final-amount">0</span></h3>
+                <button onclick="checkout()">Checkout</button>
+            </div>
+            <button onclick="closeCart()">Close Cart</button>
+        </div>
+    </div>
+    <div id="cart-notification" class="cart-notification">Item added to cart!</div>
+    <script src="index.js"></script>
+</body>
+</html>
