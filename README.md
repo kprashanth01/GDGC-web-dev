@@ -14,5 +14,5 @@ GDGC-web-dev
 
 
 Setup Instructions:
-1. Clone the repository or download the zip file: git clone https://github.com/your-username/e-commerce-product-cards.git
+1. Clone the repository or download the zip file: git clone https://github.com/your-username/GDGC-web-dev.git
 2. Open the main.html file in your browser to view the layout.
